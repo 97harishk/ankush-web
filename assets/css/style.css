@@ -98,6 +98,12 @@ h6 {
   padding: 12px;
 }
 
+#header .logo {
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #111;
+}
+
 #header .logo h1 {
   font-size: 24px;
   margin: 0;
@@ -353,6 +359,15 @@ h6 {
   margin-bottom: -90px;
 }
 
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  /* background-size: cover;
+  position: relative;
+  margin-bottom: -90px; */
+}
+
 #hero .hero-container {
   position: absolute;
   bottom: 0;
@@ -551,6 +566,10 @@ section {
   margin-bottom: 30px;
 }
 
+.about-image {
+  width: 100%;
+}
+
 .about .content .about-btn {
   display: inline-block;
   background: #67b0d1;
@@ -610,6 +629,7 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   padding: 30px;
+  min-width: 100%;
   position: relative;
   overflow: hidden;
   background: #fff;
@@ -639,6 +659,12 @@ section {
 
 .services .icon {
   margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.services .icon img {
+  width: 116px;
 }
 
 .services .icon i {
